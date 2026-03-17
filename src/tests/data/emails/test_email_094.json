@@ -1,0 +1,43 @@
+{
+  "id": "test_email_094",
+  "threadId": "test_thread_017",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 94",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "design.team@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Design Review Feedback #94"
+      },
+      {
+        "name": "Date",
+        "value": "Sat, 14 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 94. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 45291,
+  "internalDate": "1773484764594",
+  "attachments": [
+    {
+      "attachmentId": "attachment_094_01",
+      "filename": "sulv_document_094_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 1132133,
+      "description": "Spreadsheet for email 94"
+    }
+  ]
+}

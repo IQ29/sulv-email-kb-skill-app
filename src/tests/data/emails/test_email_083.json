@@ -1,0 +1,57 @@
+{
+  "id": "test_email_083",
+  "threadId": "test_thread_004",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 83",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "construction@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Build Progress Report #83"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 15 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 83. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 17281,
+  "internalDate": "1773571164585",
+  "attachments": [
+    {
+      "attachmentId": "attachment_083_01",
+      "filename": "sulv_document_083_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 5097485,
+      "description": "Photo for email 83"
+    },
+    {
+      "attachmentId": "attachment_083_02",
+      "filename": "sulv_document_083_02.jpg",
+      "mimeType": "image/jpeg",
+      "size": 216550,
+      "description": "Photo for email 83"
+    },
+    {
+      "attachmentId": "attachment_083_03",
+      "filename": "sulv_document_083_03.png",
+      "mimeType": "image/png",
+      "size": 10227766,
+      "description": "Diagram for email 83"
+    }
+  ]
+}

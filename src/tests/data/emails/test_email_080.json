@@ -1,0 +1,50 @@
+{
+  "id": "test_email_080",
+  "threadId": "test_thread_011",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 80",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "construction@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Client Meeting Notes #80"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 01 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 80. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 7437,
+  "internalDate": "1772361564583",
+  "attachments": [
+    {
+      "attachmentId": "attachment_080_01",
+      "filename": "sulv_document_080_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 2114700,
+      "description": "Document for email 80"
+    },
+    {
+      "attachmentId": "attachment_080_02",
+      "filename": "sulv_document_080_02.jpg",
+      "mimeType": "image/jpeg",
+      "size": 7988350,
+      "description": "Photo for email 80"
+    }
+  ]
+}

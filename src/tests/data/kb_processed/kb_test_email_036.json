@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_036",
+  "extracted_date": "2026-03-17T21:39:24.636674",
+  "metadata": {
+    "sender": "construction@sulv.com.au",
+    "subject": "Site Inspection Photos #36",
+    "date": "Wed, 11 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 36. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_036_01",
+      "filename": "sulv_document_036_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 5064104,
+      "description": "Document for email 36"
+    },
+    {
+      "attachmentId": "attachment_036_02",
+      "filename": "sulv_document_036_02.png",
+      "mimeType": "image/png",
+      "size": 4332560,
+      "description": "Diagram for email 36"
+    }
+  ]
+}

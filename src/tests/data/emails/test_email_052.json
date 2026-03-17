@@ -1,0 +1,43 @@
+{
+  "id": "test_email_052",
+  "threadId": "test_thread_004",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 52",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "admin_auto@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Contract Amendment #52"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 01 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 52. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 22052,
+  "internalDate": "1772361564561",
+  "attachments": [
+    {
+      "attachmentId": "attachment_052_01",
+      "filename": "sulv_document_052_01.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 6247339,
+      "description": "Word Document for email 52"
+    }
+  ]
+}

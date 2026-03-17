@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_079",
+  "extracted_date": "2026-03-17T21:39:24.624299",
+  "metadata": {
+    "sender": "construction@sulv.com.au",
+    "subject": "Build Progress Report #79",
+    "date": "Mon, 09 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 79. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_079_01",
+      "filename": "sulv_document_079_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 1173027,
+      "description": "Photo for email 79"
+    },
+    {
+      "attachmentId": "attachment_079_02",
+      "filename": "sulv_document_079_02.png",
+      "mimeType": "image/png",
+      "size": 2092281,
+      "description": "Diagram for email 79"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "test_email_066",
+  "threadId": "test_thread_016",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 66",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "admin_auto@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Client Meeting Notes #66"
+      },
+      {
+        "name": "Date",
+        "value": "Mon, 23 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 66. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 17948,
+  "internalDate": "1771843164570",
+  "attachments": [
+    {
+      "attachmentId": "attachment_066_01",
+      "filename": "sulv_document_066_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 3332579,
+      "description": "Document for email 66"
+    },
+    {
+      "attachmentId": "attachment_066_02",
+      "filename": "sulv_document_066_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 3791946,
+      "description": "Document for email 66"
+    },
+    {
+      "attachmentId": "attachment_066_03",
+      "filename": "sulv_document_066_03.png",
+      "mimeType": "image/png",
+      "size": 7310835,
+      "description": "Diagram for email 66"
+    }
+  ]
+}

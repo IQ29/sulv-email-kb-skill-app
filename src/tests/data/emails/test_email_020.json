@@ -1,0 +1,43 @@
+{
+  "id": "test_email_020",
+  "threadId": "test_thread_003",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 20",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "design.team@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Quality Control Checklist #20"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 17 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 20. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 46366,
+  "internalDate": "1771324764528",
+  "attachments": [
+    {
+      "attachmentId": "attachment_020_01",
+      "filename": "sulv_document_020_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 2460034,
+      "description": "Document for email 20"
+    }
+  ]
+}

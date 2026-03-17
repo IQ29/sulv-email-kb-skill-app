@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_089",
+  "extracted_date": "2026-03-17T21:39:24.652719",
+  "metadata": {
+    "sender": "client.relations@sulv.com.au",
+    "subject": "SULV Project Update #89",
+    "date": "Wed, 25 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 89. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_089_01",
+      "filename": "sulv_document_089_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 9796579,
+      "description": "Spreadsheet for email 89"
+    },
+    {
+      "attachmentId": "attachment_089_02",
+      "filename": "sulv_document_089_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 3262045,
+      "description": "Document for email 89"
+    }
+  ]
+}

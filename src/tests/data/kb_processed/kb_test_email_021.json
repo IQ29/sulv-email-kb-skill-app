@@ -1,0 +1,12 @@
+{
+  "source": "email",
+  "email_id": "test_email_021",
+  "extracted_date": "2026-03-17T21:39:24.638994",
+  "metadata": {
+    "sender": "design.team@sulv.com.au",
+    "subject": "Site Inspection Photos #21",
+    "date": "Sat, 14 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 21. It contains important information about SULV project activities....",
+  "attachments": []
+}

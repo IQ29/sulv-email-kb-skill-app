@@ -1,0 +1,57 @@
+{
+  "id": "test_email_084",
+  "threadId": "test_thread_017",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 84",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "construction@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Design Review Feedback #84"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 03 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 84. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 1034,
+  "internalDate": "1772534364586",
+  "attachments": [
+    {
+      "attachmentId": "attachment_084_01",
+      "filename": "sulv_document_084_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 5381174,
+      "description": "Photo for email 84"
+    },
+    {
+      "attachmentId": "attachment_084_02",
+      "filename": "sulv_document_084_02.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 3171736,
+      "description": "Spreadsheet for email 84"
+    },
+    {
+      "attachmentId": "attachment_084_03",
+      "filename": "sulv_document_084_03.png",
+      "mimeType": "image/png",
+      "size": 5970294,
+      "description": "Diagram for email 84"
+    }
+  ]
+}

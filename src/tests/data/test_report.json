@@ -1,0 +1,26 @@
+{
+  "test_name": "SULV Email + KB Integration Test",
+  "timestamp": "2026-03-17T21:39:24.653340",
+  "summary": {
+    "timestamp": "2026-03-17T21:39:24.602387",
+    "num_emails": 100,
+    "total_attachments": 145,
+    "output_dir": "test_data"
+  },
+  "kb_processing": {
+    "emails_processed": 100,
+    "kb_entries_created": 100
+  },
+  "test_files": {
+    "emails": "test_data/emails",
+    "attachments": "test_data/attachments",
+    "kb_processed": "test_data/kb_processed",
+    "summary": "test_data/test_summary.json"
+  },
+  "verification": {
+    "email_count": 100,
+    "attachment_count": 145,
+    "kb_entries": 100,
+    "status": "PASS"
+  }
+}

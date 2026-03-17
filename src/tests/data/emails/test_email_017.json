@@ -1,0 +1,43 @@
+{
+  "id": "test_email_017",
+  "threadId": "test_thread_009",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 17",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "construction@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Team Weekly Summary #17"
+      },
+      {
+        "name": "Date",
+        "value": "Mon, 02 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 17. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 29620,
+  "internalDate": "1772447964526",
+  "attachments": [
+    {
+      "attachmentId": "attachment_017_01",
+      "filename": "sulv_document_017_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7174197,
+      "description": "Spreadsheet for email 17"
+    }
+  ]
+}

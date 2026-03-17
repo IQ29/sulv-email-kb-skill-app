@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_037",
+  "extracted_date": "2026-03-17T21:39:24.639360",
+  "metadata": {
+    "sender": "design.team@sulv.com.au",
+    "subject": "Budget Approval Request #37",
+    "date": "Tue, 24 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 37. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_037_01",
+      "filename": "sulv_document_037_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 1268681,
+      "description": "Document for email 37"
+    },
+    {
+      "attachmentId": "attachment_037_02",
+      "filename": "sulv_document_037_02.jpg",
+      "mimeType": "image/jpeg",
+      "size": 546922,
+      "description": "Photo for email 37"
+    },
+    {
+      "attachmentId": "attachment_037_03",
+      "filename": "sulv_document_037_03.pdf",
+      "mimeType": "application/pdf",
+      "size": 4820291,
+      "description": "Document for email 37"
+    }
+  ]
+}

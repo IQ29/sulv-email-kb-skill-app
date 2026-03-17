@@ -1,0 +1,12 @@
+{
+  "source": "email",
+  "email_id": "test_email_038",
+  "extracted_date": "2026-03-17T21:39:24.624894",
+  "metadata": {
+    "sender": "client.relations@sulv.com.au",
+    "subject": "Contract Amendment #38",
+    "date": "Mon, 16 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 38. It contains important information about SULV project activities....",
+  "attachments": []
+}

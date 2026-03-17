@@ -1,0 +1,12 @@
+{
+  "source": "email",
+  "email_id": "test_email_004",
+  "extracted_date": "2026-03-17T21:39:24.612850",
+  "metadata": {
+    "sender": "admin_auto@sulv.com.au",
+    "subject": "Risk Assessment Report #4",
+    "date": "Mon, 16 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 4. It contains important information about SULV project activities....",
+  "attachments": []
+}

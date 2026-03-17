@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_086",
+  "extracted_date": "2026-03-17T21:39:24.614975",
+  "metadata": {
+    "sender": "admin_auto@sulv.com.au",
+    "subject": "Contract Amendment #86",
+    "date": "Sun, 15 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 86. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_086_01",
+      "filename": "sulv_document_086_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 6961865,
+      "description": "Spreadsheet for email 86"
+    },
+    {
+      "attachmentId": "attachment_086_02",
+      "filename": "sulv_document_086_02.png",
+      "mimeType": "image/png",
+      "size": 1258869,
+      "description": "Diagram for email 86"
+    }
+  ]
+}

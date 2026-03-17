@@ -1,0 +1,57 @@
+{
+  "id": "test_email_041",
+  "threadId": "test_thread_016",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 41",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "design.team@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Contract Amendment #41"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 22 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 41. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 16126,
+  "internalDate": "1771756764549",
+  "attachments": [
+    {
+      "attachmentId": "attachment_041_01",
+      "filename": "sulv_document_041_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 10482697,
+      "description": "Document for email 41"
+    },
+    {
+      "attachmentId": "attachment_041_02",
+      "filename": "sulv_document_041_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 2272675,
+      "description": "Word Document for email 41"
+    },
+    {
+      "attachmentId": "attachment_041_03",
+      "filename": "sulv_document_041_03.pdf",
+      "mimeType": "application/pdf",
+      "size": 6072754,
+      "description": "Document for email 41"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_007",
+  "extracted_date": "2026-03-17T21:39:24.648904",
+  "metadata": {
+    "sender": "client.relations@sulv.com.au",
+    "subject": "Team Weekly Summary #7",
+    "date": "Tue, 03 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 7. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_007_01",
+      "filename": "sulv_document_007_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 4761640,
+      "description": "Spreadsheet for email 7"
+    },
+    {
+      "attachmentId": "attachment_007_02",
+      "filename": "sulv_document_007_02.png",
+      "mimeType": "image/png",
+      "size": 10181573,
+      "description": "Diagram for email 7"
+    }
+  ]
+}

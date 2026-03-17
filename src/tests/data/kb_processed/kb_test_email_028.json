@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_028",
+  "extracted_date": "2026-03-17T21:39:24.614346",
+  "metadata": {
+    "sender": "construction@sulv.com.au",
+    "subject": "Client Meeting Notes #28",
+    "date": "Wed, 18 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 28. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_028_01",
+      "filename": "sulv_document_028_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 9255295,
+      "description": "Document for email 28"
+    },
+    {
+      "attachmentId": "attachment_028_02",
+      "filename": "sulv_document_028_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 7900283,
+      "description": "Word Document for email 28"
+    },
+    {
+      "attachmentId": "attachment_028_03",
+      "filename": "sulv_document_028_03.jpg",
+      "mimeType": "image/jpeg",
+      "size": 6067998,
+      "description": "Photo for email 28"
+    }
+  ]
+}

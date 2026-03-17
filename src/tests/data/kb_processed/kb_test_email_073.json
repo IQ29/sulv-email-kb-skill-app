@@ -1,0 +1,12 @@
+{
+  "source": "email",
+  "email_id": "test_email_073",
+  "extracted_date": "2026-03-17T21:39:24.606321",
+  "metadata": {
+    "sender": "construction@sulv.com.au",
+    "subject": "Build Progress Report #73",
+    "date": "Wed, 11 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 73. It contains important information about SULV project activities....",
+  "attachments": []
+}

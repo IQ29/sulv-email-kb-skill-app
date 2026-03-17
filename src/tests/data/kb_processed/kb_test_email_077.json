@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_077",
+  "extracted_date": "2026-03-17T21:39:24.637430",
+  "metadata": {
+    "sender": "construction@sulv.com.au",
+    "subject": "Team Weekly Summary #77",
+    "date": "Sun, 22 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 77. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_077_01",
+      "filename": "sulv_document_077_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 10397375,
+      "description": "Document for email 77"
+    },
+    {
+      "attachmentId": "attachment_077_02",
+      "filename": "sulv_document_077_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 10477672,
+      "description": "Document for email 77"
+    }
+  ]
+}

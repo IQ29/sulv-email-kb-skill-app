@@ -1,0 +1,50 @@
+{
+  "id": "test_email_030",
+  "threadId": "test_thread_003",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 30",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "construction@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Budget Approval Request #30"
+      },
+      {
+        "name": "Date",
+        "value": "Mon, 09 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 30. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 1719,
+  "internalDate": "1773052764540",
+  "attachments": [
+    {
+      "attachmentId": "attachment_030_01",
+      "filename": "sulv_document_030_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 1511337,
+      "description": "Document for email 30"
+    },
+    {
+      "attachmentId": "attachment_030_02",
+      "filename": "sulv_document_030_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 2211573,
+      "description": "Document for email 30"
+    }
+  ]
+}

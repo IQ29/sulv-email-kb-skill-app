@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_084",
+  "extracted_date": "2026-03-17T21:39:24.644931",
+  "metadata": {
+    "sender": "construction@sulv.com.au",
+    "subject": "Design Review Feedback #84",
+    "date": "Tue, 03 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 84. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_084_01",
+      "filename": "sulv_document_084_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 5381174,
+      "description": "Photo for email 84"
+    },
+    {
+      "attachmentId": "attachment_084_02",
+      "filename": "sulv_document_084_02.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 3171736,
+      "description": "Spreadsheet for email 84"
+    },
+    {
+      "attachmentId": "attachment_084_03",
+      "filename": "sulv_document_084_03.png",
+      "mimeType": "image/png",
+      "size": 5970294,
+      "description": "Diagram for email 84"
+    }
+  ]
+}

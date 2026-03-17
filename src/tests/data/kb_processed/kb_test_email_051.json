@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_051",
+  "extracted_date": "2026-03-17T21:39:24.646087",
+  "metadata": {
+    "sender": "design.team@sulv.com.au",
+    "subject": "Design Review Feedback #51",
+    "date": "Fri, 13 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 51. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_051_01",
+      "filename": "sulv_document_051_01.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 298112,
+      "description": "Word Document for email 51"
+    },
+    {
+      "attachmentId": "attachment_051_02",
+      "filename": "sulv_document_051_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 4974436,
+      "description": "Document for email 51"
+    },
+    {
+      "attachmentId": "attachment_051_03",
+      "filename": "sulv_document_051_03.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 3683237,
+      "description": "Spreadsheet for email 51"
+    }
+  ]
+}

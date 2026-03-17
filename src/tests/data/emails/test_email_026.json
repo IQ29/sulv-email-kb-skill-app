@@ -1,0 +1,34 @@
+{
+  "id": "test_email_026",
+  "threadId": "test_thread_005",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 26",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "client.relations@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Risk Assessment Report #26"
+      },
+      {
+        "name": "Date",
+        "value": "Mon, 23 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 26. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 48273,
+  "internalDate": "1771843164534"
+}

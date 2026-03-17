@@ -1,0 +1,57 @@
+{
+  "id": "test_email_095",
+  "threadId": "test_thread_009",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 95",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "admin_auto@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Quality Control Checklist #95"
+      },
+      {
+        "name": "Date",
+        "value": "Thu, 19 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 95. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 10224,
+  "internalDate": "1771497564595",
+  "attachments": [
+    {
+      "attachmentId": "attachment_095_01",
+      "filename": "sulv_document_095_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 4296799,
+      "description": "Document for email 95"
+    },
+    {
+      "attachmentId": "attachment_095_02",
+      "filename": "sulv_document_095_02.png",
+      "mimeType": "image/png",
+      "size": 3848451,
+      "description": "Diagram for email 95"
+    },
+    {
+      "attachmentId": "attachment_095_03",
+      "filename": "sulv_document_095_03.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 878524,
+      "description": "Word Document for email 95"
+    }
+  ]
+}

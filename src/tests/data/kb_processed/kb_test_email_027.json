@@ -1,0 +1,20 @@
+{
+  "source": "email",
+  "email_id": "test_email_027",
+  "extracted_date": "2026-03-17T21:39:24.651122",
+  "metadata": {
+    "sender": "construction@sulv.com.au",
+    "subject": "Budget Approval Request #27",
+    "date": "Sun, 22 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 27. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_027_01",
+      "filename": "sulv_document_027_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 4526702,
+      "description": "Document for email 27"
+    }
+  ]
+}

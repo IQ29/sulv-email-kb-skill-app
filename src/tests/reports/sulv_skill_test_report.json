@@ -1,0 +1,59 @@
+{
+  "test_name": "SULV Google Workspace Hybrid Skill + KB Integration Test",
+  "timestamp": "2026-03-17T21:38:57+11:00",
+  "test_results": {
+    "mcporter": true,
+    "skill_scripts": true,
+    "backend_logic": true,
+    "kb_integration": {
+      "available": true,
+      "directory": "enterprise-kb",
+      "files_found": [
+        "main.py",
+        "requirements.txt",
+        "README.md"
+      ],
+      "capabilities": [
+        "Document ingestion",
+        "Semantic search",
+        "Query processing",
+        "Report generation"
+      ]
+    },
+    "workflow_log": {
+      "workflow": "SULV Email Processing",
+      "steps": [
+        "1. Email search query construction",
+        "2. Backend selection (google-workspace MCP)",
+        "3. Email metadata retrieval",
+        "4. Attachment detection",
+        "5. Data extraction",
+        "6. KB integration",
+        "7. Report generation"
+      ],
+      "test_data": {
+        "emails_processed": 100,
+        "attachments_found": 158,
+        "kb_entries_created": 100,
+        "backend_used": "google-workspace MCP (simulated)"
+      },
+      "status": "simulated_success"
+    }
+  },
+  "summary": {
+    "skill_available": true,
+    "mcporter_available": true,
+    "backend_logic_tested": true,
+    "kb_integration": true,
+    "workflow_simulated": true
+  },
+  "recommendations": [
+    "Authenticate gog CLI with Google Workspace credentials"
+  ],
+  "gog_status": {
+    "installed": true,
+    "version": "v0.12.0 (c18c58c 2026-03-09T05:53:14Z)",
+    "authenticated": false,
+    "next_step": "Run authentication: gog auth credentials <client_secret.json>"
+  }
+}

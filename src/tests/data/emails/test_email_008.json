@@ -1,0 +1,43 @@
+{
+  "id": "test_email_008",
+  "threadId": "test_thread_003",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 8",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "design.team@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Team Weekly Summary #8"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 17 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 8. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 34198,
+  "internalDate": "1771324764514",
+  "attachments": [
+    {
+      "attachmentId": "attachment_008_01",
+      "filename": "sulv_document_008_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7005605,
+      "description": "Spreadsheet for email 8"
+    }
+  ]
+}

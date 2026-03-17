@@ -1,0 +1,20 @@
+{
+  "source": "email",
+  "email_id": "test_email_008",
+  "extracted_date": "2026-03-17T21:39:24.605676",
+  "metadata": {
+    "sender": "design.team@sulv.com.au",
+    "subject": "Team Weekly Summary #8",
+    "date": "Tue, 17 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 8. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_008_01",
+      "filename": "sulv_document_008_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7005605,
+      "description": "Spreadsheet for email 8"
+    }
+  ]
+}

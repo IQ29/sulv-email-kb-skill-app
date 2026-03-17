@@ -1,0 +1,43 @@
+{
+  "id": "test_email_018",
+  "threadId": "test_thread_007",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 18",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "project.manager@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Design Review Feedback #18"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 04 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 18. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 21355,
+  "internalDate": "1772620764527",
+  "attachments": [
+    {
+      "attachmentId": "attachment_018_01",
+      "filename": "sulv_document_018_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 7179227,
+      "description": "Photo for email 18"
+    }
+  ]
+}

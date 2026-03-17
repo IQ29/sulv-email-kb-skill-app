@@ -1,0 +1,50 @@
+{
+  "id": "test_email_029",
+  "threadId": "test_thread_001",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 29",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "construction@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Build Progress Report #29"
+      },
+      {
+        "name": "Date",
+        "value": "Sat, 28 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 29. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 46814,
+  "internalDate": "1772275164538",
+  "attachments": [
+    {
+      "attachmentId": "attachment_029_01",
+      "filename": "sulv_document_029_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 8436250,
+      "description": "Spreadsheet for email 29"
+    },
+    {
+      "attachmentId": "attachment_029_02",
+      "filename": "sulv_document_029_02.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 1715534,
+      "description": "Spreadsheet for email 29"
+    }
+  ]
+}

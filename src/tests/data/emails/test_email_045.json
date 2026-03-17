@@ -1,0 +1,50 @@
+{
+  "id": "test_email_045",
+  "threadId": "test_thread_009",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 45",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "project.manager@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Risk Assessment Report #45"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 15 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 45. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 17699,
+  "internalDate": "1771151964554",
+  "attachments": [
+    {
+      "attachmentId": "attachment_045_01",
+      "filename": "sulv_document_045_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 406480,
+      "description": "Photo for email 45"
+    },
+    {
+      "attachmentId": "attachment_045_02",
+      "filename": "sulv_document_045_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 7349051,
+      "description": "Word Document for email 45"
+    }
+  ]
+}

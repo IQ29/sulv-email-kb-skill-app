@@ -1,0 +1,12 @@
+{
+  "source": "email",
+  "email_id": "test_email_056",
+  "extracted_date": "2026-03-17T21:39:24.640909",
+  "metadata": {
+    "sender": "project.manager@sulv.com.au",
+    "subject": "Quality Control Checklist #56",
+    "date": "Sun, 15 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 56. It contains important information about SULV project activities....",
+  "attachments": []
+}

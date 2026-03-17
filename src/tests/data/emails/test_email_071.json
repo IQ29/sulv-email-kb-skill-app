@@ -1,0 +1,57 @@
+{
+  "id": "test_email_071",
+  "threadId": "test_thread_020",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 71",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "construction@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Quality Control Checklist #71"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 08 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 71. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 9120,
+  "internalDate": "1772966364575",
+  "attachments": [
+    {
+      "attachmentId": "attachment_071_01",
+      "filename": "sulv_document_071_01.png",
+      "mimeType": "image/png",
+      "size": 414838,
+      "description": "Diagram for email 71"
+    },
+    {
+      "attachmentId": "attachment_071_02",
+      "filename": "sulv_document_071_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 5955556,
+      "description": "Word Document for email 71"
+    },
+    {
+      "attachmentId": "attachment_071_03",
+      "filename": "sulv_document_071_03.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 2064385,
+      "description": "Word Document for email 71"
+    }
+  ]
+}

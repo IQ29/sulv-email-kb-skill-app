@@ -1,0 +1,57 @@
+{
+  "id": "test_email_050",
+  "threadId": "test_thread_004",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 50",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "client.relations@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Team Weekly Summary #50"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 03 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 50. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 6471,
+  "internalDate": "1772534364558",
+  "attachments": [
+    {
+      "attachmentId": "attachment_050_01",
+      "filename": "sulv_document_050_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 4607312,
+      "description": "Photo for email 50"
+    },
+    {
+      "attachmentId": "attachment_050_02",
+      "filename": "sulv_document_050_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 6291271,
+      "description": "Word Document for email 50"
+    },
+    {
+      "attachmentId": "attachment_050_03",
+      "filename": "sulv_document_050_03.pdf",
+      "mimeType": "application/pdf",
+      "size": 8022471,
+      "description": "Document for email 50"
+    }
+  ]
+}

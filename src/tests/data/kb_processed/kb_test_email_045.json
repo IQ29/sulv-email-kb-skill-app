@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_045",
+  "extracted_date": "2026-03-17T21:39:24.610349",
+  "metadata": {
+    "sender": "project.manager@sulv.com.au",
+    "subject": "Risk Assessment Report #45",
+    "date": "Sun, 15 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 45. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_045_01",
+      "filename": "sulv_document_045_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 406480,
+      "description": "Photo for email 45"
+    },
+    {
+      "attachmentId": "attachment_045_02",
+      "filename": "sulv_document_045_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 7349051,
+      "description": "Word Document for email 45"
+    }
+  ]
+}

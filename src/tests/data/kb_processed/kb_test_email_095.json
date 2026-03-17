@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_095",
+  "extracted_date": "2026-03-17T21:39:24.641913",
+  "metadata": {
+    "sender": "admin_auto@sulv.com.au",
+    "subject": "Quality Control Checklist #95",
+    "date": "Thu, 19 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 95. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_095_01",
+      "filename": "sulv_document_095_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 4296799,
+      "description": "Document for email 95"
+    },
+    {
+      "attachmentId": "attachment_095_02",
+      "filename": "sulv_document_095_02.png",
+      "mimeType": "image/png",
+      "size": 3848451,
+      "description": "Diagram for email 95"
+    },
+    {
+      "attachmentId": "attachment_095_03",
+      "filename": "sulv_document_095_03.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 878524,
+      "description": "Word Document for email 95"
+    }
+  ]
+}

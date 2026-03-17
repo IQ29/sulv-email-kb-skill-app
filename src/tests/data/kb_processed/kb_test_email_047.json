@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_047",
+  "extracted_date": "2026-03-17T21:39:24.646477",
+  "metadata": {
+    "sender": "admin_auto@sulv.com.au",
+    "subject": "SULV Project Update #47",
+    "date": "Sat, 14 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 47. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_047_01",
+      "filename": "sulv_document_047_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 1015335,
+      "description": "Document for email 47"
+    },
+    {
+      "attachmentId": "attachment_047_02",
+      "filename": "sulv_document_047_02.jpg",
+      "mimeType": "image/jpeg",
+      "size": 7008453,
+      "description": "Photo for email 47"
+    },
+    {
+      "attachmentId": "attachment_047_03",
+      "filename": "sulv_document_047_03.jpg",
+      "mimeType": "image/jpeg",
+      "size": 41910,
+      "description": "Photo for email 47"
+    }
+  ]
+}

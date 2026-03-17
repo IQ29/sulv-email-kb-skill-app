@@ -1,0 +1,57 @@
+{
+  "id": "test_email_022",
+  "threadId": "test_thread_008",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 22",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "design.team@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Site Inspection Photos #22"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 17 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 22. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 12056,
+  "internalDate": "1773743964529",
+  "attachments": [
+    {
+      "attachmentId": "attachment_022_01",
+      "filename": "sulv_document_022_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 8253939,
+      "description": "Photo for email 22"
+    },
+    {
+      "attachmentId": "attachment_022_02",
+      "filename": "sulv_document_022_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 8937875,
+      "description": "Document for email 22"
+    },
+    {
+      "attachmentId": "attachment_022_03",
+      "filename": "sulv_document_022_03.jpg",
+      "mimeType": "image/jpeg",
+      "size": 8779056,
+      "description": "Photo for email 22"
+    }
+  ]
+}

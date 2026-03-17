@@ -1,0 +1,27 @@
+{
+  "source": "email",
+  "email_id": "test_email_076",
+  "extracted_date": "2026-03-17T21:39:24.638157",
+  "metadata": {
+    "sender": "design.team@sulv.com.au",
+    "subject": "Design Review Feedback #76",
+    "date": "Tue, 17 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 76. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_076_01",
+      "filename": "sulv_document_076_01.png",
+      "mimeType": "image/png",
+      "size": 9321018,
+      "description": "Diagram for email 76"
+    },
+    {
+      "attachmentId": "attachment_076_02",
+      "filename": "sulv_document_076_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 4493888,
+      "description": "Document for email 76"
+    }
+  ]
+}

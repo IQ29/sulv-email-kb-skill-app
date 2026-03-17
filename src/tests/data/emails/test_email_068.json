@@ -1,0 +1,57 @@
+{
+  "id": "test_email_068",
+  "threadId": "test_thread_011",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 68",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "design.team@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Site Inspection Photos #68"
+      },
+      {
+        "name": "Date",
+        "value": "Fri, 20 Feb 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 68. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 48394,
+  "internalDate": "1771583964572",
+  "attachments": [
+    {
+      "attachmentId": "attachment_068_01",
+      "filename": "sulv_document_068_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 10164044,
+      "description": "Photo for email 68"
+    },
+    {
+      "attachmentId": "attachment_068_02",
+      "filename": "sulv_document_068_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 4982833,
+      "description": "Word Document for email 68"
+    },
+    {
+      "attachmentId": "attachment_068_03",
+      "filename": "sulv_document_068_03.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 7646955,
+      "description": "Word Document for email 68"
+    }
+  ]
+}

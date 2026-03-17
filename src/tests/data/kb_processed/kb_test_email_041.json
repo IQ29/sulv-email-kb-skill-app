@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_041",
+  "extracted_date": "2026-03-17T21:39:24.635322",
+  "metadata": {
+    "sender": "design.team@sulv.com.au",
+    "subject": "Contract Amendment #41",
+    "date": "Sun, 22 Feb 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 41. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_041_01",
+      "filename": "sulv_document_041_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 10482697,
+      "description": "Document for email 41"
+    },
+    {
+      "attachmentId": "attachment_041_02",
+      "filename": "sulv_document_041_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 2272675,
+      "description": "Word Document for email 41"
+    },
+    {
+      "attachmentId": "attachment_041_03",
+      "filename": "sulv_document_041_03.pdf",
+      "mimeType": "application/pdf",
+      "size": 6072754,
+      "description": "Document for email 41"
+    }
+  ]
+}

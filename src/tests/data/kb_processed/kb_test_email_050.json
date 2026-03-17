@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_050",
+  "extracted_date": "2026-03-17T21:39:24.648260",
+  "metadata": {
+    "sender": "client.relations@sulv.com.au",
+    "subject": "Team Weekly Summary #50",
+    "date": "Tue, 03 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 50. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_050_01",
+      "filename": "sulv_document_050_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 4607312,
+      "description": "Photo for email 50"
+    },
+    {
+      "attachmentId": "attachment_050_02",
+      "filename": "sulv_document_050_02.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 6291271,
+      "description": "Word Document for email 50"
+    },
+    {
+      "attachmentId": "attachment_050_03",
+      "filename": "sulv_document_050_03.pdf",
+      "mimeType": "application/pdf",
+      "size": 8022471,
+      "description": "Document for email 50"
+    }
+  ]
+}

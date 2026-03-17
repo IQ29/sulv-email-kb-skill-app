@@ -1,0 +1,34 @@
+{
+  "id": "test_email_059",
+  "threadId": "test_thread_003",
+  "labelIds": [
+    "INBOX",
+    "UNREAD"
+  ],
+  "snippet": "This is a test email snippet for email 59",
+  "payload": {
+    "headers": [
+      {
+        "name": "From",
+        "value": "design.team@sulv.com.au"
+      },
+      {
+        "name": "To",
+        "value": "recipient@sulv.com.au"
+      },
+      {
+        "name": "Subject",
+        "value": "Build Progress Report #59"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 01 Mar 2026 21:39:24 "
+      }
+    ],
+    "body": {
+      "data": "This is the body of test email 59. It contains important information about SULV project activities."
+    }
+  },
+  "sizeEstimate": 1709,
+  "internalDate": "1772361564566"
+}

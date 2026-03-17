@@ -1,0 +1,34 @@
+{
+  "source": "email",
+  "email_id": "test_email_049",
+  "extracted_date": "2026-03-17T21:39:24.604915",
+  "metadata": {
+    "sender": "admin_auto@sulv.com.au",
+    "subject": "Build Progress Report #49",
+    "date": "Mon, 09 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 49. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_049_01",
+      "filename": "sulv_document_049_01.pdf",
+      "mimeType": "application/pdf",
+      "size": 1447049,
+      "description": "Document for email 49"
+    },
+    {
+      "attachmentId": "attachment_049_02",
+      "filename": "sulv_document_049_02.pdf",
+      "mimeType": "application/pdf",
+      "size": 8843806,
+      "description": "Document for email 49"
+    },
+    {
+      "attachmentId": "attachment_049_03",
+      "filename": "sulv_document_049_03.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 5483162,
+      "description": "Spreadsheet for email 49"
+    }
+  ]
+}

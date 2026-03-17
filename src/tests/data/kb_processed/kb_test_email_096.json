@@ -1,0 +1,20 @@
+{
+  "source": "email",
+  "email_id": "test_email_096",
+  "extracted_date": "2026-03-17T21:39:24.623844",
+  "metadata": {
+    "sender": "admin_auto@sulv.com.au",
+    "subject": "SULV Project Update #96",
+    "date": "Fri, 13 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 96. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_096_01",
+      "filename": "sulv_document_096_01.jpg",
+      "mimeType": "image/jpeg",
+      "size": 9942053,
+      "description": "Photo for email 96"
+    }
+  ]
+}

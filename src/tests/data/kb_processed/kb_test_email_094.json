@@ -1,0 +1,20 @@
+{
+  "source": "email",
+  "email_id": "test_email_094",
+  "extracted_date": "2026-03-17T21:39:24.634484",
+  "metadata": {
+    "sender": "design.team@sulv.com.au",
+    "subject": "Design Review Feedback #94",
+    "date": "Sat, 14 Mar 2026 21:39:24 "
+  },
+  "content_summary": "This is the body of test email 94. It contains important information about SULV project activities....",
+  "attachments": [
+    {
+      "attachmentId": "attachment_094_01",
+      "filename": "sulv_document_094_01.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 1132133,
+      "description": "Spreadsheet for email 94"
+    }
+  ]
+}
