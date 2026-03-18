@@ -1,0 +1,13 @@
+{
+  "demo_completed": "2026-03-18T12:21:15.476702",
+  "emails_processed": 10,
+  "total_attachments": 21,
+  "cost_savings": 0.056,
+  "kb_components": [
+    "ocr",
+    "embedding",
+    "chunking",
+    "reranking",
+    "processing"
+  ]
+}

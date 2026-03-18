@@ -1,0 +1,47 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Database
+# sqlite3 is built into Python
+
+# Search and embeddings
+chromadb==0.4.22
+sentence-transformers==2.2.2
+numpy==1.24.3
+
+# Google Workspace integration
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.108.0
+
+# Document processing
+pymupdf==1.23.8  # PDF parsing
+python-docx==1.1.0
+openpyxl==3.1.2
+Pillow==10.1.0
+pytesseract==0.3.10
+
+# AI/ML
+anthropic==0.7.7
+openai==1.3.0  # For Kimi API compatibility
+transformers==4.36.0
+torch==2.1.0
+
+# Utilities
+python-multipart==0.0.6
+python-dateutil==2.8.2
+python-dotenv==1.0.0
+requests==2.31.0
+aiofiles==23.2.1
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+isort==5.12.0
+mypy==1.7.0
+pre-commit==3.5.0

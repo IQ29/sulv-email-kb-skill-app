@@ -1,0 +1,12 @@
+# Core essentials for KB components
+pydantic==2.5.0
+numpy==1.24.3
+sentence-transformers==2.2.2
+transformers==4.36.0
+torch==2.1.0
+Pillow==10.1.0
+pytesseract==0.3.10
+pymupdf==1.23.8
+python-docx==1.1.0
+openpyxl==3.1.2
+chromadb==0.4.22

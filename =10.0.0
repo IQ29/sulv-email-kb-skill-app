@@ -1,0 +1,6 @@
+Collecting Pillow
+  Downloading pillow-12.1.1-cp314-cp314-macosx_10_15_x86_64.whl.metadata (8.8 kB)
+Downloading pillow-12.1.1-cp314-cp314-macosx_10_15_x86_64.whl (5.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 4.4 MB/s  0:00:01
+Installing collected packages: Pillow
+Successfully installed Pillow-12.1.1

@@ -1,254 +1,279 @@
-# 🦞 SULV Email + Knowledge Base Skill App
+# SULV Unified Knowledge Base
 
-**Complete Automation Package for Processing 100+ Emails with Attachments & KB Integration**
+## 🎯 Vision
+A centralized knowledge core that serves as the single source of truth for all SULV administration tools, replacing overlapping KB functionality across:
+- `sulv-knowledge-base` (current dedicated KB)
+- `sulv-dashboard` (KB Q&A interface)
+- `sulv-email-kb-skill-app` (email processing with KB context)
 
-## 📋 Overview
+## 🏗️ Architecture (Option 1 - Centralized Core)
 
-A production-ready skill application that combines SULV's Google Workspace Hybrid Skill with an Enterprise Knowledge Base, tested at scale with 100+ emails and attachments.
+```
+┌─────────────────────────────────────────────────────────┐
+│               UNIFIED KB CORE                           │
+│  • SQLite FTS5 (primary full-text index)                │
+│  • Chroma + MiniLM (semantic search layer)              │
+│  • Claude/Kimi API integration (AI reasoning)           │
+│  • Unified data sync (Gmail/Chat/Drive/Local)           │
+│                                                         │
+│  ESSENTIAL ELEMENTS (Tiny Models, No LLM Cost):         │
+│  • Embedding: MiniLM-L6-v2 (80MB)                       │
+│  • Chunking: Recursive semantic                         │
+│  • OCR: Tesseract (100MB)                               │
+│  • Reranking: Cross-encoder (80MB)                      │
+│  • Processing: Complete pipeline                        │
+└─────────────────────────────────────────────────────────┘
+            │              │              │
+            ▼              ▼              ▼
+┌─────────────┐  ┌─────────────┐  ┌─────────────┐
+│  Dashboard  │  │ Email Skill │  │ Other Tools │
+│  (Q&A UI)   │  │ (Context)   │  │             │
+└─────────────┘  └─────────────┘  └─────────────┘
+```
 
-### 🎯 **What This App Does:**
-1. **Email Processing**: Syncs and processes emails from Gmail using dual-backend architecture (MCP + gog CLI)
-2. **Attachment Handling**: Downloads and processes email attachments automatically
-3. **KB Integration**: Ingests processed content into an AI-powered knowledge base
-4. **Scale Testing**: Validated with 100+ emails simultaneously
-5. **Production Workflows**: Ready for SULV project deployment
+## 📁 Project Structure
 
-## 🚀 **Quick Start**
+```
+sulv-unified-kb/
+├── src/
+│   ├── core/                    # Core KB engine
+│   │   ├── indexer/            # Indexing pipeline
+│   │   ├── searcher/           # Search algorithms
+│   │   ├── sync/               # Data sync from sources
+│   │   ├── api/                # Unified API layer
+│   │   ├── embedding/          # Embedding models (MiniLM, BGE, FastText)
+│   │   ├── chunking/           # Intelligent chunking strategies
+│   │   ├── ocr/                # OCR for images/PDFs (Tesseract)
+│   │   ├── reranking/          # Result reranking (cross-encoders)
+│   │   └── processor/          # Complete processing pipeline
+│   ├── integrations/           # Integration adapters
+│   │   ├── dashboard/          # Dashboard integration
+│   │   ├── email_skill/        # Email skill integration
+│   │   └── google_workspace/   # Google services
+│   └── models/                 # Data models
+├── config/                     # Configuration
+├── scripts/                    # Utility scripts
+├── tests/                      # Test suite
+├── docs/                       # Documentation
+├── ESSENTIAL_ELEMENTS.md       # Complete KB components guide
+└── clients/                    # Client libraries
+    ├── python/                 # Python client
+    ├── typescript/             # TypeScript client (for dashboard)
+    └── cli/                    # Command-line interface
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.11+
+- SQLite3
+- Google Workspace credentials (for sync)
 
 ### Installation
 ```bash
-# Clone the repository
-git clone https://github.com/IQ29/sulv-email-kb-skill-app.git
-cd sulv-email-kb-skill-app
-
-# Check system status
-python -m src.tests.check_test_status
-
-# Run comprehensive tests
-./src/tests/run_full_test_suite.sh
-```
-
-### Basic Usage
-```python
-# Check skill status
-from src.skill.scripts.hybrid_backend import GoogleWorkspaceHybrid
-hybrid = GoogleWorkspaceHybrid()
-print(f"Backend status: {hybrid.backend_status}")
-
-# Sync emails
-from src.skill.scripts.email_sync import EmailSyncManager
-manager = EmailSyncManager()
-result = manager.sync_emails("from:admin_auto@sulv.com.au newer_than:1d", max_results=10)
-print(f"Synced {result['emails_synced']} emails")
-```
-
-## 📁 **Project Structure**
-
-```
-sulv-email-kb-skill-app/
-├── src/
-│   ├── skill/                    # SULV Google Workspace Hybrid Skill
-│   │   ├── scripts/
-│   │   │   ├── email_sync.py        # Email synchronization engine
-│   │   │   ├── hybrid_backend.py    # Dual-backend logic (MCP + gog)
-│   │   │   ├── chat_reporter.py     # Google Chat reporting
-│   │   │   └── example.py           # Usage examples
-│   │   └── SKILL.md                 # Skill documentation
-│   ├── kb/                        # Enterprise Knowledge Base
-│   │   ├── main.py                 # KB main application
-│   │   ├── requirements.txt        # Python dependencies
-│   │   └── KB_README.md            # KB documentation
-│   └── tests/                     # Comprehensive test suite
-│       ├── test_email_kb_integration.py  # 100+ email scale test
-│       ├── test_sulv_skill_workflow.py   # Skill functionality test
-│       ├── test_gog_installation.py      # gog CLI integration test
-│       ├── check_test_status.py          # System status check
-│       ├── run_full_test_suite.sh        # Full test execution
-│       ├── data/                         # Test data (100+ emails)
-│       └── reports/                      # Test results
-├── docs/                         # Documentation
-├── examples/                     # Usage examples
-├── config/                       # Configuration files
-├── logs/                         # Application logs
-├── data/                         # Working data
-└── README.md                     # This file
-```
-
-## 🔧 **Core Components**
-
-### 1. **SULV Google Workspace Hybrid Skill**
-- **Dual Backend**: google-workspace MCP + gog CLI with automatic fallback
-- **Email Sync**: Batch email processing with attachment download
-- **Smart Filtering**: SULV project-specific email filtering
-- **Chat Integration**: Automated reporting to Google Chat spaces
-
-### 2. **Enterprise Knowledge Base**
-- **Document Ingestion**: Process emails and attachments into structured knowledge
-- **Semantic Search**: AI-powered search across all processed content
-- **Local-First**: Privacy-focused architecture with API fallback
-- **Report Generation**: Automated daily/weekly/monthly reports
-
-### 3. **Test Suite**
-- **Scale Testing**: 100+ email processing validation
-- **Performance Metrics**: Processing time, success rates, error handling
-- **Simulation Mode**: Test without live API access
-- **Validation Reports**: Detailed test results and recommendations
-
-## 📊 **Test Results**
-
-### ✅ **Validated at Scale:**
-- **100+ emails** processed simultaneously
-- **150+ attachments** handled successfully  
-- **Full KB integration** working
-- **Hybrid backend fallback** tested and operational
-
-### 🧪 **Test Coverage:**
-- Email synchronization: 100% success (simulated)
-- Attachment handling: 100% success (simulated)
-- KB integration: 100% success (simulated)
-- Error handling: Tested and working
-
-## 🔄 **Workflow Examples**
-
-### Daily Email Processing
-```bash
-# Sync new emails
-python src/skill/scripts/email_sync.py \
-  --query "from:admin_auto@sulv.com.au newer_than:1d" \
-  --max-results 50 \
-  --download-attachments \
-  --output-dir ./data/emails
-
-# Process through KB
-python src/kb/main.py ingest ./data/emails --user "sulv_auto"
-
-# Generate daily report
-python src/skill/scripts/chat_reporter.py \
-  --space "spaces/SULV-Build-Leadership" \
-  --report ./data/daily_summary.md
-```
-
-### Weekly Reporting
-```bash
-# Generate weekly insights
-python src/kb/main.py report weekly --output ./data/reports/weekly.md
-
-# Post to project channel
-python src/skill/scripts/chat_reporter.py \
-  --space "spaces/SULV-Build-Leadership" \
-  --report ./data/reports/weekly.md \
-  --title "SULV Weekly Project Report"
-```
-
-## ⚙️ **Configuration**
-
-### Environment Setup
-```bash
-# Google Workspace credentials
-export GCP_CLIENT_ID="your_client_id"
-export GCP_CLIENT_SECRET="your_client_secret"
-export GCP_REFRESH_TOKEN="your_refresh_token"
-
-# Application settings
-export SULV_PROJECT_NAME="15 Talus"
-export SULV_EMAIL_FILTER="label:SULV-Build"
-export KB_DATA_DIR="./data/kb_processed"
-
-# GitHub (for updates)
-export GITHUB_TOKEN="your_github_token"
-```
-
-### Backend Configuration
-The skill uses a hybrid backend architecture:
-1. **Primary**: google-workspace MCP (for Chat operations)
-2. **Fallback**: gog CLI (for Gmail/Drive operations)
-3. **Automatic switching**: If one backend fails, automatically uses the other
-
-## 🧪 **Testing**
-
-### Run All Tests
-```bash
-./src/tests/run_full_test_suite.sh
-```
-
-### Individual Test Modules
-```bash
-# Test email processing at scale
-python src/tests/test_email_kb_integration.py
-
-# Test skill functionality
-python src/tests/test_sulv_skill_workflow.py
-
-# Test gog CLI integration
-python src/tests/test_gog_installation.py
-
-# Check system status
-python src/tests/check_test_status.py
-```
-
-## 🚀 **Deployment**
-
-### Local Deployment
-```bash
-# Set up environment
+# Clone and setup
+cd sulv-unified-kb
 python -m venv venv
 source venv/bin/activate
-pip install -r src/kb/requirements.txt
+pip install -r requirements.txt
 
-# Run the application
-python src/kb/main.py --help
+# Initialize database
+python scripts/init_db.py
+
+# Configure Google Workspace
+python scripts/setup_google_auth.py
 ```
 
-### Cloud Deployment Options
-- **Cloudflare Workers**: For web interface
-- **Google Cloud Run**: For backend processing
-- **Docker**: Containerized deployment
-- **Kubernetes**: Scalable orchestration
+### Quick Start
+```bash
+# Start the unified KB server
+python src/api/server.py
 
-## 📈 **Performance**
+# In another terminal, test the API
+curl http://localhost:8000/api/v1/health
+```
 
-### Tested Metrics
-- **Email Processing**: 100+ emails in < 5 minutes (simulated)
-- **Attachment Handling**: 150+ attachments processed
-- **KB Ingestion**: Real-time processing with batch optimization
-- **Memory Usage**: Optimized for 16GB RAM systems
+## 🔌 API Endpoints
 
-### Success Criteria
-- ✅ All 100 test emails processed successfully
-- ✅ All attachments handled correctly
-- ✅ KB integration working end-to-end
-- ✅ Error recovery and fallback operational
+### Core API
+- `GET /api/v1/health` - Service health check
+- `POST /api/v1/ingest` - Ingest documents/data
+- `POST /api/v1/search` - Unified search (full-text + semantic)
+- `POST /api/v1/ask` - Q&A with AI context
+- `GET /api/v1/sync/status` - Sync status from sources
 
-## 🤝 **Integration with SULV-PM-Platform**
+### Integration Endpoints
+- `POST /api/v1/integrations/dashboard/search` - Dashboard-optimized search
+- `POST /api/v1/integrations/email/context` - Email context lookup
+- `POST /api/v1/integrations/google/sync` - Trigger Google sync
 
-This skill app can power the email processing for the [SULV-PM-Platform](https://github.com/IQ29/SULV-PM-Platform):
+## 🔄 Data Flow
 
-1. **Backend Service**: Use as the email processing engine
-2. **Data Provider**: Feed processed emails into the platform's database
-3. **Report Generator**: Create AI-powered insights for the dashboard
-4. **Chat Integration**: Post updates to project Chat spaces
+### Ingestion Pipeline
+```
+Source (Gmail/Chat/Drive/Local) 
+    → [Sync Adapter] 
+    → [Parser/Cleaner] 
+    → [Chunker] 
+    → [Dual Index: SQLite FTS5 + Chroma] 
+    → [Metadata Store]
+```
 
-## 📄 **License**
+### Query Pipeline
+```
+Query 
+    → [Intent Classifier] 
+    → [Query Rewriter] 
+    → [Dual Search: FTS5 + Semantic] 
+    → [Result Fusion] 
+    → [AI Context Enrichment] 
+    → [Response Formatter]
+```
 
-MIT License - See included LICENSE file for details.
+## 🎨 Integration Examples
 
-## 🙏 **Acknowledgments**
+### Dashboard Integration (TypeScript)
+```typescript
+import { SULVKnowledgeBase } from '@sulv/unified-kb-client';
 
-- Built for **SULV Group** project management automation
-- Integrates with **Google Workspace** ecosystem
-- Uses **OpenClaw** agent framework
-- Tested with **100+ email scale** validation
-- **Ready for production deployment**
+const kb = new SULVKnowledgeBase({ baseUrl: 'http://localhost:8000' });
 
-## 📞 **Support**
+// Search for project documents
+const results = await kb.search({
+  query: 'St Ives duplex construction plans',
+  filters: { source: 'drive', project: 'SULV-2024-001' }
+});
 
-- **Issues**: [GitHub Issues](https://github.com/IQ29/sulv-email-kb-skill-app/issues)
-- **Documentation**: See `docs/` directory
-- **Examples**: See `examples/` directory
-- **Testing**: Comprehensive test suite included
+// Q&A interface
+const answer = await kb.ask({
+  question: 'What are the current issues with the St Ives project?',
+  context: { project_id: 'SULV-2024-001' }
+});
+```
 
----
+### Email Skill Integration (Python)
+```python
+from sulv_unified_kb import UnifiedKBClient
 
-**Ready for SULV Project Deployment** 🚀
+kb = UnifiedKBClient(api_url="http://localhost:8000")
 
-*Last Updated: 2026-03-17 | Version: 1.0.0 | Status: Production-Ready*
+# Get context for email processing
+context = kb.get_email_context(
+    sender="client@example.com",
+    subject="St Ives project inquiry",
+    body="Looking for updates on the duplex construction..."
+)
+
+# Ingest processed email
+kb.ingest_email(
+    email_id="email_123",
+    sender="client@example.com",
+    subject="Project inquiry",
+    body="...",
+    attachments=[...],
+    metadata={"project": "SULV-2024-001"}
+)
+```
+
+## 📊 Features
+
+### Unified Search
+- **Full-text search**: SQLite FTS5 for keyword matching
+- **Semantic search**: Chroma + MiniLM for meaning-based search
+- **Hybrid ranking**: Combines both approaches for best results
+- **Faceted filtering**: By source, date, project, type
+
+### AI Integration
+- **Claude Haiku**: Report generation and complex Q&A
+- **Kimi API**: Fallback reasoning and summarization
+- **Local models**: MiniLM for embeddings, Flan-T5 for summarization
+
+### Data Sync
+- **Google Workspace**: Gmail, Chat, Drive
+- **Local files**: Documents, PDFs, images
+- **Real-time updates**: Webhook support
+- **Incremental sync**: Only new/changed content
+
+## 🔧 Configuration
+
+### Core Config (`config/core.yaml`)
+```yaml
+database:
+  path: ./data/kb.db
+  fts5_enabled: true
+  
+search:
+  hybrid_weight_fts5: 0.4
+  hybrid_weight_semantic: 0.6
+  top_k: 10
+  
+ai:
+  primary: claude_haiku
+  fallback: kimi
+  local_embedding: minilm_l6_v2
+  
+sync:
+  google:
+    enabled: true
+    interval_minutes: 15
+  local:
+    enabled: true
+    watch_paths: ["./data/inbox"]
+```
+
+## 🧪 Testing
+
+```bash
+# Run all tests
+pytest tests/
+
+# Test specific components
+pytest tests/test_core_indexer.py
+pytest tests/test_api_integration.py
+
+# Integration tests
+pytest tests/integration/test_dashboard_client.py
+```
+
+## 📈 Migration Plan
+
+### Phase 1: Foundation (Week 1-2)
+- [ ] Core indexing pipeline
+- [ ] Unified API server
+- [ ] Basic search functionality
+- [ ] SQLite FTS5 integration
+
+### Phase 2: Integration (Week 3-4)
+- [ ] Google Workspace sync
+- [ ] Dashboard client library
+- [ ] Email skill integration
+- [ ] Semantic search layer
+
+### Phase 3: AI Enhancement (Week 5-6)
+- [ ] Claude/Kimi integration
+- [ ] Q&A interface
+- [ ] Report generation
+- [ ] Result fusion algorithms
+
+### Phase 4: Migration (Week 7-8)
+- [ ] Data migration from existing systems
+- [ ] Update dashboard to use unified API
+- [ ] Update email skill to use unified API
+- [ ] Decommission overlapping components
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make changes with tests
+4. Submit a pull request
+
+## 📄 License
+
+MIT
+
+## 🙏 Acknowledgments
+
+- Built on lessons from `sulv-knowledge-base`, `sulv-dashboard`, and `sulv-email-kb-skill-app`
+- Integrates best practices from all three systems
+- Designed for SULV Construction operational excellence

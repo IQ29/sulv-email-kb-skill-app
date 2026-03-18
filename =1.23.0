@@ -1,0 +1,6 @@
+Collecting pymupdf
+  Downloading pymupdf-1.27.2-cp310-abi3-macosx_10_9_x86_64.whl.metadata (3.4 kB)
+Downloading pymupdf-1.27.2-cp310-abi3-macosx_10_9_x86_64.whl (24.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.0/24.0 MB 3.9 MB/s  0:00:06
+Installing collected packages: pymupdf
+Successfully installed pymupdf-1.27.2

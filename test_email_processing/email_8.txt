@@ -1,0 +1,7 @@
+
+            Subject: Invoice 00003312; Mackenzie Architects International Pty Ltd
+            From: "'Mackenzie Architects International Pty Ltd' via Accounts" <Accounts@sulv.com.au>
+            Date: Mon, 16 Mar 2026 23:00:34 +0000
+            
+            ...  # Truncated for display
+            
